@@ -4,7 +4,12 @@ spring:
     properties:
       hibernate:
         format_sql: true #format SQL
+  h2:
+    console:
+      enabled: true  #h2 db platform generated automatically
 
 logging:
   level:
     org.hibernate.type.descriptor.sql: trace #show binding db values
+
+
